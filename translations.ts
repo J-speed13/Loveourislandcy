@@ -17,11 +17,13 @@ export const translations = {
     },
     idea: {
       title: 'The Idea',
-      shame: 'We don’t change behaviour with shame.',
-      fines: 'We don’t change it with fines.',
-      identity: 'We change it with identity.',
-      p1: 'Love Our Island is a simple idea: If litter is the problem, the solution belongs on the litter.',
-      p2: 'A free, open icon — available to every brand in Cyprus — to remind us that this place is not just beautiful. It’s ours.',
+      line1: 'We don’t change behaviour with shame.',
+      line2: 'We don’t change it with fines.',
+      line3: 'We change it with identity.',
+      line4: 'Love Our Island is a simple idea:',
+      line5: 'If litter is the problem, the solution belongs on the litter.',
+      line6: 'A free, open icon — available to every brand in Cyprus — to remind us that this place is not just beautiful.',
+      line7: 'It’s ours.',
     },
     goal: {
       title: 'The Goal',
@@ -45,7 +47,7 @@ export const translations = {
     about: {
       label: 'A Personal Note',
       title: 'I’m James.',
-      p1: 'I’m a designer. I believe symbols shape how we behave.',
+      p1: 'I’m a designer. I believe symbols shape how we behave. They’re not just graphics — they shape identity.',
       p2: 'I moved to Cyprus in the summer of 2025. Like a lot of people who fall in love with this island, I wanted to help in the ways I could.',
       p3: 'I started cleaning my training spot in Limassol. I thought a bin would fix it. It didn’t.',
       p4: 'And that’s when it clicked: litter isn’t just a waste problem. It’s an identity problem.',
@@ -68,7 +70,7 @@ export const translations = {
       disclaimer: 'For commercial merchandise, resale products, political use, modified versions, or use outside Cyprus — please get in touch first.',
     },
     help: {
-      title: 'You Can Help — For Free',
+      title: 'How You Can Help',
       p1: 'If this resonates:',
       items: [
         'Share the film',
@@ -137,11 +139,13 @@ export const translations = {
     },
     idea: {
       title: 'Η Ιδέα',
-      shame: 'Δεν αλλάζουμε συμπεριφορά με ντροπή.',
-      fines: 'Δεν την αλλάζουμε με πρόστιμα.',
-      identity: 'Την αλλάζουμε με την ταυτότητα.',
-      p1: 'Το Love Our Island είναι μια απλή ιδέα: Εάν τα σκουπίδια είναι το πρόβλημα, η λύση ανήκει πάνω στα σκουπίδια.',
-      p2: 'Ένα ελεύθερο, ανοιχτό σύμβολο — διαθέσιμο σε κάθε brand στην Κύπρο — για να μας θυμίζει ότι αυτός ο τόπος δεν είναι απλώς όμορφος. Είναι δικός μας.',
+      line1: 'Δεν αλλάζουμε συμπεριφορά με ντροπή.',
+      line2: 'Δεν την αλλάζουμε με πρόστιμα.',
+      line3: 'Την αλλάζουμε με την ταυτότητα.',
+      line4: 'Το Love Our Island είναι μια απλή ιδέα:',
+      line5: 'Εάν τα σκουπίδια είναι το πρόβλημα, η λύση ανήκει πάνω στα σκουπίδια.',
+      line6: 'Ένα ελεύθερο σύμβολο για κάθε brand στην Κύπρο, για να μας θυμίζει ότι αυτός ο τόπος δεν είναι απλώς όμορφος.',
+      line7: 'Είναι δικός μας.',
     },
     goal: {
       title: 'Ο Στόχος',
@@ -165,12 +169,12 @@ export const translations = {
     about: {
       label: 'Προσωπικό Σημείωμα',
       title: 'Είμαι ο James.',
-      p1: 'Είμαι σχεδιαστής. Πιστεύω ότι τα σύμβολα διαμορφώνουν τον τρόπο που συμπεριφερόμαστε.',
-      p2: 'Μετακόμισα στην Κύπρο το καλοκαίρι του 2025. Ήθελα να βοηθήσω με τους τρόπους που μπορούσα.',
-      p3: 'Άρχισα να καθαρίζω το μέρος που προπονούμαι στη Λεμεσό.',
-      p4: 'Τότε κατάλαβα: τα σκουπίδια δεν είναι απλώς πρόβλημα απορριμμάτων. Είναι πρόβλημα ταυτότητας.',
-      p5: 'Έτσι σχεδίασα κάτι. Όχι ένα λογότυπο. Ένα σύμβολο.',
-      p6: 'Πρόκειται για την οικοδόμηση κάτι που όλοι αναγνωρίζουμε ως δικό μας. Ένα σύμβολο για το νησί που μοιραζόμαστε.',
+      p1: 'Είμαι σχεδιαστής. Πιστεύω ότι τα σύμβολα διαμορφώνουν τον τρόπο που συμπεριφερόμαστε. Δεν είναι απλά γραφικά — διαμορφώνουν την ταυτότητα.',
+      p2: 'Μετακόμισα στην Κύπρο το καλοκαίρι του 2025. Όπως πολλοί άνθρωποι που ερωτεύονται αυτό το νησί, ήθελα να βοηθήσω με όποιον τρόπο μπορούσα.',
+      p3: 'Άρχισα να καθαρίζω το μέρος που προπονούμαι στη Λεμεσό. Νόμιζα ότι ένας κάδος θα έλυνε το πρόβλημα. Δεν το έλυσε.',
+      p4: 'Και τότε το κατάλαβα: τα σκουπίδια δεν είναι απλώς ένα πρόβλημα απορριμμάτων. Είναι πρόβλημα ταυτότητας.',
+      p5: 'Έτσι σχεδίασα κάτι. Όχι ένα λογότυπο. Ένα σύμβολο. Κάτι αρκετά απλό για να βρίσκεται παντού. Κάτι αρκετά δυνατό για να σημαίνει κάτι.',
+      p6: 'Δεν πρόκειται για το να κατηγορήσουμε κάποιον. Πρόκειται για την οικοδόμηση κάτι που όλοι αναγνωρίζουμε ως δικό μας. Ένα σύμβολο για το νησί που μοιραζόμαστε.',
     },
     adopt: {
       title: 'Υιοθετήστε το Σύμβολο',
@@ -188,7 +192,7 @@ export const translations = {
       disclaimer: 'Για εμπορική χρήση ή μεταπώληση, παρακαλούμε επικοινωνήστε πρώτα μαζί μας.',
     },
     help: {
-      title: 'Μπορείτε να Βοηθήσετε — Δωρεάν',
+      title: 'Πώς Μπορείτε να Βοηθήσετε',
       p1: 'Αν αυτό σας εκφράζει:',
       items: [
         'Μοιραστείτε το φιλμ',

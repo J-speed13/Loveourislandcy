@@ -5,6 +5,7 @@ import { About } from './components/About';
 import { Idea } from './components/Idea';
 import { Goal } from './components/Goal';
 import { Posters } from './components/Posters';
+import { Help } from './components/Help';
 import { Donate } from './components/Donate';
 import { DownloadLogo } from './components/DownloadLogo';
 import { PrivacyPolicy } from './components/PrivacyPolicy';
@@ -26,6 +27,7 @@ const AppContent: React.FC = () => {
             <Goal />
             <About />
             <Posters />
+            <Help />
           </>
         );
       case ViewState.STORY:

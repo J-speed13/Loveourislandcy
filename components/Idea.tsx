@@ -12,10 +12,20 @@ export const Idea: React.FC = () => {
           {t.idea.title}
         </span>
         
-        <div className="text-xl sm:text-2xl font-bold text-slate-300 leading-relaxed max-w-3xl">
-          <p className="mb-6">{t.idea.shame} {t.idea.fines} {t.idea.identity}</p>
-          <p className="mb-6 text-white text-3xl font-black">{t.idea.p1}</p>
-          <p className="opacity-70 text-lg font-medium">{t.idea.p2}</p>
+        <div className="text-lg sm:text-xl font-bold text-slate-300 leading-relaxed max-w-3xl whitespace-pre-line">
+          <p className="mb-2">{t.idea.line1}</p>
+          <p className="mb-2">{t.idea.line2}</p>
+          <p className="mb-6">{t.idea.line3}</p>
+          
+          <p className="mb-2 text-white text-2xl font-black">{t.idea.line4}</p>
+          <p className="mb-8 text-white text-2xl font-black italic">{t.idea.line5}</p>
+          
+          <p className="opacity-70 font-medium">
+            {t.idea.line6}
+          </p>
+          <p className="text-white text-4xl font-black mt-4 uppercase tracking-tighter">
+            {t.idea.line7}
+          </p>
         </div>
       </div>
     </section>

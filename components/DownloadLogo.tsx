@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { Download, CheckCircle, Info, Loader2 } from 'lucide-react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { Logo } from './Logo';
+import { Help } from './Help';
 
 export const DownloadLogo: React.FC = () => {
   const { t } = useLanguage();
@@ -34,8 +35,8 @@ export const DownloadLogo: React.FC = () => {
   };
 
   return (
-    <div className="bg-[#fdfbf7] py-24 px-4 sm:px-6 lg:px-8 min-h-screen">
-      <div className="max-w-7xl mx-auto">
+    <div className="bg-[#fdfbf7]">
+      <div className="py-24 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
         <div className="text-center mb-24">
           <span className="inline-block px-4 py-1.5 bg-slate-900 text-white text-[10px] font-black uppercase tracking-widest rounded-none mb-8">
             Adopt the Icon
@@ -89,32 +90,15 @@ export const DownloadLogo: React.FC = () => {
           </div>
         </div>
 
-        {/* Free Help Section */}
-        <div className="max-w-4xl mx-auto mb-32 bg-white rounded-none p-12 md:p-20 border border-slate-100 shadow-sm text-center">
-          <h3 className="text-4xl font-black text-slate-900 mb-6">{t.help.title}</h3>
-          <p className="text-xl text-slate-500 font-medium mb-12">{t.help.p1}</p>
-          
-          <div className="flex flex-wrap justify-center gap-4 mb-12">
-            {t.help.items.map((item, idx) => (
-              <span key={idx} className="px-6 py-3 bg-slate-50 rounded-none text-slate-700 font-bold border border-slate-100 hover:bg-[#d37628]/5 transition-colors">
-                {item}
-              </span>
-            ))}
-          </div>
-          
-          <p className="text-[#d37628] font-black text-2xl uppercase tracking-tighter italic">
-            {t.help.outro}
-          </p>
-        </div>
-
         {/* Legal Disclaimer */}
-        <div className="bg-slate-50 rounded-none p-10 flex items-start gap-6 border border-slate-200/50 max-w-4xl mx-auto">
+        <div className="bg-slate-50 rounded-none p-10 flex items-start gap-6 border border-slate-200/50 max-w-4xl mx-auto mb-24">
           <Info className="w-8 h-8 text-slate-400 shrink-0 mt-1" />
           <p className="text-slate-400 font-medium leading-relaxed text-sm italic">
             {t.adopt.disclaimer}
           </p>
         </div>
       </div>
+      <Help />
     </div>
   );
 };
