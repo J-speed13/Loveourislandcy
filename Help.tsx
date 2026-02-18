@@ -1,7 +1,6 @@
 import React from 'react';
 import { useLanguage } from '../contexts/LanguageContext';
 import { Youtube, Instagram, Share2, ExternalLink } from 'lucide-react';
-import { Logo } from './Logo';
 
 const TiktokIcon = ({ className }: { className?: string }) => (
   <svg viewBox="0 0 24 24" fill="currentColor" className={className} xmlns="http://www.w3.org/2000/svg">
@@ -25,9 +24,6 @@ export const Help: React.FC = () => {
         <ul className="space-y-12">
           <li className="flex flex-col sm:flex-row sm:items-center gap-6">
             <div className="flex items-center gap-4 text-white">
-              <div className="w-10 h-10 flex items-center justify-center shrink-0 bg-white/5 p-2">
-                <Logo className="w-full h-full" />
-              </div>
               <span className="text-xl font-black uppercase">Share the film</span>
             </div>
             <a 
@@ -42,9 +38,6 @@ export const Help: React.FC = () => {
 
           <li className="flex flex-col sm:flex-row sm:items-center gap-6">
             <div className="flex items-center gap-4 text-white">
-              <div className="w-10 h-10 flex items-center justify-center shrink-0 bg-white/5 p-2">
-                <Logo className="w-full h-full" />
-              </div>
               <span className="text-xl font-black uppercase">Follow the journey</span>
             </div>
             <div className="flex flex-wrap gap-4">
@@ -55,23 +48,14 @@ export const Help: React.FC = () => {
           </li>
 
           <li className="flex items-start gap-4 text-white">
-             <div className="w-8 h-8 flex items-center justify-center shrink-0">
-                <Logo className="w-5 h-5 opacity-80" />
-             </div>
              <span className="text-xl font-bold text-slate-300">Tag businesses you want to see adopt the icon</span>
           </li>
 
           <li className="flex items-start gap-4 text-white">
-             <div className="w-8 h-8 flex items-center justify-center shrink-0">
-                <Logo className="w-5 h-5 opacity-80" />
-             </div>
              <span className="text-xl font-bold text-slate-300">Print a poster</span>
           </li>
 
           <li className="flex items-start gap-4 text-white">
-             <div className="w-8 h-8 flex items-center justify-center shrink-0">
-                <Logo className="w-5 h-5 opacity-80" />
-             </div>
              <span className="text-xl font-bold text-slate-300">Put it in your gym, café, office</span>
           </li>
         </ul>

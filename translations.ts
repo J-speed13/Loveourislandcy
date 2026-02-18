@@ -39,10 +39,11 @@ export const translations = {
       tagline: 'Zero cost to companies.',
     },
     posters: {
-      title: 'The Visibility',
+      title: 'The Posters',
       p1: 'A symbol only works when people understand what it stands for.',
-      p2: 'Over the coming months, the icon will be appearing quietly around the island. Beaches. Hills. Cafés. Unexpected corners.',
-      p3: 'If you spot it — snap it. Share it. Tag it. Let’s see how far it travels.',
+      p2: 'Over the coming months, I’ll be designing many posters and placing them quietly around the island.',
+      p3: 'Beaches. Hills. Cafés. Unexpected corners.',
+      p4: 'If you spot one — snap it. Share it. Tag it. Let’s see how far it travels.',
     },
     about: {
       label: 'A Personal Note',
@@ -161,10 +162,11 @@ export const translations = {
       tagline: 'Μηδενικό κόστος για τις εταιρείες.',
     },
     posters: {
-      title: 'Η Ορατότητα',
+      title: 'Οι Αφίσες',
       p1: 'Ένα σύμβολο λειτουργεί μόνο όταν οι άνθρωποι καταλαβαίνουν τι αντιπροσωπεύει.',
-      p2: 'Τους επόμενους μήνες, το σύμβολο θα εμφανίζεται σιωπηλά σε όλο το νησί. Παραλίες. Λόφους. Καφετέριες.',
-      p3: 'Αν το εντοπίσετε — βγάλτε τη φωτογραφία. Μοιραστείτε τη.',
+      p2: 'Τους επόμενους μήνες, θα σχεδιάζω πολλές αφίσες και θα τις τοποθετώ σιωπηλά σε όλο το νησί.',
+      p3: 'Παραλίες. Λόφους. Καφετέριες. Απροσδόκητες γωνιές.',
+      p4: 'Αν εντοπίσετε μία — βγάλτε τη φωτογραφία. Μοιραστείτε τη. Κάντε tag. Ας δούμε πόσο μακριά θα ταξιδέψει.',
     },
     about: {
       label: 'Προσωπικό Σημείωμα',
